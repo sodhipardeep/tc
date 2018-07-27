@@ -1,8 +1,9 @@
+
 version: 2
 jobs:
   build:
     machine:
-       environment:
+        environment:
        image: circleci/classic:latest
     steps:
       - checkout
